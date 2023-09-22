@@ -1,0 +1,232 @@
+# mainboard
+Fan Bearer
+Healer's Hawk
+Impassioned Orator
+Mesa Unicorn
+Raise the Alarm
+Skyline Scout
+War Screecher
+Youthful Knight
+Celestial Unicorn
+Exultant Skymarcher
+Kor Celebrant
+Queen's Commission
+Trusted Pegasus
+Basri's Acolyte
+Gale Swooper
+Paladin of the Bloodstained
+Angel of the Dawn
+Valorous Steed
+Bulwark Giant
+Light of Hope
+Adamant Will
+Battlefield Promotion
+Divine Arrow
+Revitalize
+Moment of Valor
+Inspired Charge
+Blessed Light
+Take Vengeance
+Bring to Trial
+Angelic Gift
+Pacifism
+Wall of Runes
+Facet Reader
+Faerie Duelist
+Keen Glidemaster
+Omenspeaker
+Sky Theater Strix
+Stormkeld Prowler
+Vodalian Arcanist
+Aven Wind Mage
+Cloudkin Seer
+Frost Lynx
+Spellkeeper Weird
+Muse Drake
+Octoprophet
+Thunder Drake
+Cloudreader Sphinx
+Salvager of Secrets
+Cold-Water Snapper
+Opt
+Disperse
+Essence Scatter
+Cancel
+Quick Study
+Uncomfortable Chill
+Leave in the Dust
+Misleading Motes
+Totally Lost
+Sleight of Hand
+Shimmer of Possibility
+Divination
+Tamiyo's Epiphany
+Into the Fae Court
+Read the Tides
+Kasmina's Transmutation
+Capture Sphere
+Hired Poisoner
+Sanitarium Skeleton
+Burglar Rat
+Child of Night
+Corpse Hauler
+Ghoulcaller's Accomplice
+Sepulcher Ghoul
+Vampire Opportunist
+Cadaver Imp
+Gorging Vulture
+Marauding Blight-Priest
+Spark Reaper
+Voracious Vermin
+Bushmeat Poacher
+Crypt Lurker
+Venomous Hierophant
+Epicure of Blood
+Windgrace Acolyte
+Dread Rider
+Rat Out
+Supernatural Stamina
+Moment of Craving
+Subtle Strike
+Murder
+Dark Bargain
+Bone Splinters
+Macabre Waltz
+Mind Drain
+Soul Salvage
+Agonizing Syphon
+Lich's Caress
+Rise Again
+Goblin Arsonist
+Harried Spearguard
+Weaselback Redcap
+Axgard Cavalry
+Borderland Marauder
+Burning Prophet
+Dragon Fodder
+Fissure Wizard
+Hobblefiend
+Boggart Brute
+Frenzied Raptor
+Raging Kronch
+Spellgorger Weird
+Edgewall Pack
+Pyroceratops
+Turret Ogre
+Zealot of the God-Pharaoh
+Skophos Warleader
+Sparktongue Dragon
+Ripscale Predator
+Shock
+Storm Strike
+Chandra's Pyrohelix
+Fire Prophecy
+Fling
+Run Amok
+Thrill of Possibility
+Open Fire
+Chandra's Outrage
+Reckless Impulse
+Act of Treason
+Portent of Betrayal
+Almighty Brushwagg
+Llanowar Elves
+Drowsing Tyrannodon
+Ilysian Caryatid
+Leafkin Druid
+Rootrider Faun
+Snarespinner
+Terrain Elemental
+Dire Wolf Prowler
+Excavation Mole
+Llanowar Visionary
+Verdant Outrider
+Wildwood Patrol
+Yavimaya Sapherd
+Ambassador Oak
+Bristling Boar
+Joraga Visionary
+Rumbling Baloth
+Elturgard Ranger
+Grizzled Outrider
+Silverback Shaman
+Colossal Dreadmaw
+Vorstclaw
+Gift of Strength
+Titanic Growth
+Broken Wings
+Adventurous Impulse
+Rabid Bite
+Relentless Pursuit
+Scale the Heights
+Hunter's Edge
+Talons of Wildwood
+Meandering River
+Empyrean Eagle
+Submerged Boneyard
+Psychic Symbiont
+Cinder Barrens
+Mayhem Devil
+Timber Gorge
+Warden of the Chained
+Tranquil Expanse
+Ironroot Warlord
+Forsaken Sanctuary
+Indulging Patrician
+Highland Lake
+Experimental Overload
+Foul Orchard
+Acolyte of Affliction
+Stone Quarry
+Heroic Reinforcements
+Woodland Stream
+Maraleaf Pixie
+Campus Guide
+Scarecrow Guide
+Skittering Surveyor
+Signpost Scarecrow
+Prophet of the Peak
+Short Sword
+Traveler's Amulet
+Cobbled Wings
+Marauder's Axe
+Mana Geode
+Evolving Wilds
+
+# maybeboard
+Steadfast Unicorn
+Charismatic Vanguard
+Inspiring Overseer
+Mesa Cavalier
+Priest of Ancient Lore
+Revitalize
+Soothsayer Adept
+Cruel Witness
+Meldweb Curator
+Quicksilver Fisher
+Shore Up
+Unsummon
+Geistwave
+Impulse
+Charmed Sleep
+Phyrexian Vivisector
+Phyrexian Rager
+Testament Bearer
+Morkrut Behemoth
+Cruel Grimnarch
+Roc Hunter
+Breakneck Berserker
+Ardent Elementalist
+Wrecking Crew
+Abrade
+Lightning Strike
+Hungry Flames
+Pigment Storm
+Burrowing Razormaw
+Eccentric Farmer
+Gnottvold Recluse
+Magnigoth Sentry
+Snakeskin Veil
+Forge Boss
+Crossroads Candleguide
+

@@ -1,0 +1,10 @@
+{
+  "name": "drive-download-20230922T005546Z-001",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

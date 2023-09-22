@@ -1,0 +1,244 @@
+# mainboard
+Glint Hawk
+Lagonna-Band Trailblazer
+Sacred Cat
+Thraben Inspector
+Thraben Inspector
+Akroan Skyguard
+Arashin Cleric
+Crimson Acolyte
+Kor Skyfisher
+Lone Missionary
+Seeker of the Way
+Squadron Hawk
+Standard Bearer
+Auramancer
+Heliod's Pilgrim
+Kor Sanctifiers
+Midnight Guard
+Guardian of the Guildpact
+Palace Sentinels
+Palace Sentinels
+Stonehorn Dignitary
+Emerge Unscathed
+Ephemerate
+Mana Tithe
+Dawn Charm
+Prismatic Strands
+Battle Screech
+Cartouche of Solidarity
+Ethereal Armor
+Hyena Umbra
+Journey to Nowhere
+Journey to Nowhere
+Delver of Secrets
+Delver of Secrets
+Faerie Miscreant
+Faerie Seer
+Augur of Bolas
+Dream Stalker
+Spellstutter Sprite
+Spellstutter Sprite
+Spellweaver Eternal
+Sea Gate Oracle
+Stormbound Geist
+Archaeomancer
+Ninja of the Deep Hours
+Mulldrifter
+Mulldrifter
+Gearseeker Serpent
+Brainstorm
+Condescend
+Dispel
+Hydroblast
+Spell Pierce
+Accumulated Knowledge
+Counterspell
+Counterspell
+Daze
+Echoing Truth
+Impulse
+Miscalculation
+Negate
+Prohibit
+Snap
+Ghostly Flicker
+Devious Cover-Up
+Gush
+Ponder
+Ponder
+Preordain
+Preordain
+Pieces of the Puzzle
+Thoughtcast
+Mantle of Tides
+Reality Acid
+Disciple of the Vault
+Fourth Bridge Prowler
+Night Market Lookout
+Cuombajj Witches
+Mesmeric Fiend
+Chittering Rats
+Crypt Rats
+Liliana's Specter
+Phyrexian Rager
+Bone Picker
+Thorn of the Black Rose
+Thorn of the Black Rose
+Gray Merchant of Asphodel
+Okiba-Gang Shinobi
+Gurmag Angler
+Gurmag Angler
+Disfigure
+Tragic Slip
+Echoing Decay
+Geth's Verdict
+Victim of Night
+Pharika's Libation
+Reaping the Graves
+Suffocating Fumes
+Snuff Out
+Divest
+Duress
+Raven's Crime
+Unearth
+Chainer's Edict
+Sign in Blood
+Read the Bones
+Evincar's Justice
+Dead Weight
+Oubliette
+Pestilence
+Gorilla Shaman
+Atog
+Keldon Marauders
+Kiln Fiend
+Barge In
+Electrickery
+Galvanic Blast
+Lightning Bolt
+Lightning Bolt
+Pyroblast
+Red Elemental Blast
+Skred
+Abrade
+Flaring Pain
+Fling
+Smash to Smithereens
+Temur Battle Rage
+Fiery Cannonade
+Chain Lightning
+Faithless Looting
+Flame Slash
+Kuldotha Rebirth
+Swirling Sandstorm
+Flurry of Horns
+Makeshift Munitions
+Caustic Caterpillar
+Gladecover Scout
+Nettle Sentinel
+Quirion Ranger
+Skarrgan Pit-Skulk
+Wild Nacatl
+Young Wolf
+Carapace Forger
+Nest Invader
+River Boa
+Silhana Ledgewalker
+Hunger of the Howlpack
+Vines of Vastwood
+Moment's Peace
+Pulse of Murasa
+Savage Swipe
+Commune with the Gods
+Lead the Stampede
+Abundant Growth
+Rancor
+Spider Umbra
+Utopia Sprawl
+Nylea's Presence
+Ancestral Mask
+Cartouche of Strength
+Elephant Guide
+Presence of Gond
+Agony Warp
+Mystical Teachings
+Dinrova Horror
+Terminate
+Ancient Grudge
+Burning-Tree Emissary
+Manamorphose
+Armadillo Cloak
+Castigate
+Unmake
+Nivix Cyclops
+Fire // Ice
+Double Cleave
+Rally the Peasants
+Slippery Bogle
+Perilous Myr
+Vault Skirge
+Frogmite
+Spire Golem
+Myr Enforcer
+Sojourner's Companion
+Gut Shot
+Mutagenic Growth
+Mutagenic Growth
+Apostle's Blessing
+Gitaxian Probe
+Gitaxian Probe
+Lotus Petal
+Aether Spellbomb
+Arcum's Astrolabe
+Bonesplitter
+Chromatic Star
+Flayer Husk
+Navigator's Compass
+Nihil Spellbomb
+Pyrite Spellbomb
+Relic of Progenitus
+Alchemist's Vial
+Cranial Plating
+Prophetic Prism
+Prophetic Prism
+Pristine Talisman
+Renegade Freighter
+Ancient Den
+Great Furnace
+Seat of the Synod
+Tree of Tales
+Vault of Whispers
+Glacial Floodplain
+Razortide Bridge
+Dimir Aqueduct
+Dismal Backwater
+Drossforge Bridge
+Sulfurous Mire
+Highland Forest
+Arctic Treeline
+Scoured Barrens
+Izzet Boilerworks
+Silverbluff Bridge
+Woodland Chasm
+Boros Garrison
+Wind-Scarred Crag
+Rimewood Falls
+Ash Barrens
+Ash Barrens
+Basilisk Gate
+Black Dragon Gate
+Bojuka Bog
+Citadel Gate
+Cliffgate
+Evolving Wilds
+Evolving Wilds
+Manor Gate
+Mystic Sanctuary
+Radiant Fountain
+Sea Gate
+Terramorphic Expanse
+Terramorphic Expanse
+
+# maybeboard
+

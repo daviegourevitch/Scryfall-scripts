@@ -1,0 +1,364 @@
+# mainboard
+Court Homunculus
+Deftblade Elite
+Doomed Traveler
+Faerie Guidemother
+Gideon's Lawkeeper
+Goldmeadow Harrier
+Hunted Witness
+Thraben Inspector
+Ancestral Blade
+Arcbound Prototype
+Auriok Sunchaser
+Benalish Sleeper
+Cathar Commando
+Flutterfox
+Gather the Townsfolk
+Mistral Charger
+Raffine's Informant
+Raise the Alarm
+Stormfront Pegasus
+Unruly Mob
+Argivian Cavalier
+Attended Knight
+Crusader of Odric
+Heliod's Pilgrim
+Inspiring Overseer
+Martyr's Soul
+Priest of Ancient Lore
+Rising Populace
+Roving Harper
+Battle Screech
+Cenn's Enlistment
+Mistmoon Griffin
+Sanctum Gargoyle
+Search Party Captain
+Thraben Sentry
+You're Confronted by Robbers
+Custodi Squire
+Sunblade Samurai
+Argivian Phalanx
+Imperial Oath
+Triplicate Spirits
+Soul of Migration
+Dauntless Unity
+You Hear Something on Watch
+Lens Flare
+Sunlance
+Angelic Purge
+Dispeller's Capsule
++2 Mace
+Greatsword of Tyr
+Journey to Nowhere
+Temporal Isolation
+Minimus Containment
+Oblivion Ring
+Faith's Fetters
+Faerie Seer
+Gearsmith Prodigy
+Hard Evidence
+Armguard Familiar
+Baithook Angler
+Faerie Duelist
+Jeskai Elder
+Moon-Circuit Hacker
+Omenspeaker
+Spellstutter Sprite
+Aeronaut Tinkerer
+Cloudkin Seer
+Dimir Informant
+Man-o'-War
+Mistral Singer
+Sea Gate Oracle
+Skittering Crustacean
+Winter Eladrin
+Galedrifter
+Mist Raven
+Moonsnare Specialist
+Ninja of the Deep Hours
+Organ Hoarder
+Mulldrifter
+Pondering Mage
+Watcher in the Mist
+Young Blue Dragon
+Somber Hoverguard
+Gearseeker Serpent
+Mirrorshell Crab
+Tolarian Terror
+Consider
+Opt
+Counterspell
+Into the Roil
+Lose Focus
+Mana Leak
+Memory Lapse
+Miscalculation
+Exclude
+Repulse
+Behold the Multiverse
+Ray of Command
+Capsize
+Mental Journey
+Ponder
+Preordain
+Silent Departure
+Strategic Planning
+Compulsive Research
+Deep Analysis
+Thoughtcast
+Witching Well
+Weakstone's Subjugation
+The Modern Age
+Carnophage
+Carrion Feeder
+Changeling Outcast
+Ecstatic Awakener
+Nested Shambler
+Persistent Specimen
+Plagued Rusalka
+Vampire Lacerator
+Fledgling Djinn
+Ghoulcaller's Accomplice
+Lazotep Reaver
+Putrid Goblin
+Sinuous Vermin
+Toxic Abomination
+Vermin Gorger
+Wailing Ghoul
+Bloodflow Connoisseur
+Cadaver Imp
+Eerie Soultender
+Gorging Vulture
+Liliana's Specter
+Phyrexian Rager
+Tizerus Charger
+Bone Picker
+Gravedigger
+Moan of the Unhallowed
+Vulturous Aven
+Diregraf Horde
+Gray Merchant of Asphodel
+Loathsome Curator
+Okiba-Gang Shinobi
+First-Sphere Gargantua
+Twisted Abomination
+Gurmag Angler
+Defile
+Disfigure
+Lash of Malice
+Tragic Slip
+Cast Down
+Last Gasp
+Tragic Fall
+Vicious Offering
+Dig Up the Body
+Death Denied
+Bone Shards
+Night's Whisper
+Ransack the Lab
+Arms of Hadar
+Evincar's Justice
+Rise Again
+Summon Undead
+Dead Weight
+Okiba Reckoner Raid
+Oubliette
+Pestilence
+Insolent Neonate
+Jackal Pup
+Monastery Swiftspear
+Scorched Rusalka
+Voldaren Epicure
+Borderland Marauder
+Burning Prophet
+Deathbellow Raider
+Dragon Fodder
+Firebrand Archer
+Forbidden Friendship
+Goblin Bushwhacker
+Goblin Instigator
+Kessig Flamebreather
+Krenko's Command
+Mogg War Marshal
+Orcish Hellraiser
+Scrapwork Mutt
+Thermo-Alchemist
+Underworld Rage-Hound
+Yavimaya Steelcrusher
+Bloodmad Vampire
+Burning-Tree Vandal
+Hordeling Outburst
+Merchant of the Vale
+Plundering Barbarian
+Skophos Reaver
+Witty Roastmaster
+Ardent Elementalist
+Beetleback Chief
+Famished Foragers
+Goblin War Party
+Mount Velus Manticore
+Falkenrath Celebrants
+Reckless Wurm
+Revolutionist
+Burst Lightning
+Lightning Axe
+Lightning Bolt
+Abrade
+Faithless Salvaging
+Lightning Strike
+Magma Jet
+Fiery Temper
+Staggershock
+Magmatic Sinkhole
+Chain Lightning
+Faithless Looting
+Firebolt
+Lava Coil
+Reckless Impulse
+Arc Lightning
+Pyrotechnics
+Rolling Thunder
+Raid Bombardment
+Basking Rootwalla
+Chatter of the Squirrel
+Elvish Mystic
+Experiment One
+Fyndhorn Elves
+Llanowar Elves
+Nimble Mongoose
+Borderland Explorer
+Circle of the Land Druid
+Fists of Ironwood
+Mother Bear
+Nest Invader
+Saproling Migration
+Satyr Wayfinder
+Scurrid Colony
+Werebear
+Wild Mongrel
+Carefree Swinemaster
+Eccentric Farmer
+Excavation Mole
+Jewel Thief
+Llanowar Visionary
+Scion of the Wild
+Twin-Silk Spider
+Acorn Harvest
+Bannerhide Krushok
+Kavu Primarch
+Kozilek's Predator
+Sarulf's Packmate
+Shadowbeast Sighting
+Trumpeting Herd
+Voracious Typhon
+Wickerbough Elder
+Arrogant Wurm
+Nessian Asp
+Owlbear
+Scatter the Seeds
+Greater Tanuki
+Hooting Mandrills
+Greater Sandwurm
+Krosan Tusker
+Grapple with the Past
+Broken Wings
+Clear Shot
+Pulse of Murasa
+Abundant Harvest
+Epic Confrontation
+Explore
+Winding Way
+Nissa's Pilgrimage
+Scale the Heights
+Rancor
+Cartouche of Strength
+Elephant Guide
+Moldervine Cloak
+Ethercaste Knight
+Chrome Courier
+Glassdust Hulk
+Agony Warp
+Cavern Harpy
+Soul Manipulation
+Goblin Deathraiders
+Spike Jester
+Blightning
+Goblin Anarchomancer
+Branching Bolt
+Frenzied Arynx
+Selesnya Evangel
+Armadillo Cloak
+Rosemane Centaur
+Cartel Aristocrat
+Imperious Oligarch
+Call to the Feast
+Ghitu Amplifier
+Bloodwater Entity
+Fire // Ice
+Glowspore Shaman
+Dreg Mangler
+Desecrator Hag
+Keldon Strike Team
+Rally the Peasants
+War Flare
+Coiling Oracle
+Growth Spiral
+Wavesifter
+Flayer Husk
+Gingerbrute
+Vault Skirge
+Glint Hawk Idol
+Perilous Myr
+Porcelain Legionnaire
+Spined Thopter
+Blood Servitor
+Foundry Inspector
+Gathan Raiders
+Sickleslicer
+Pierce Strider
+Kozilek's Channeler
+Will-Forged Golem
+Myr Enforcer
+Ulamog's Crusher
+Bonesplitter
+Relic of Progenitus
+Sylvok Lifestaff
+Ecologist's Terrarium
+Guardian Idol
+Heart-Piercer Bow
+Mind Stone
+Vulshok Morningstar
+Pristine Talisman
+Renegade Freighter
+Serrated Arrows
+Azorius Chancery
+Razortide Bridge
+Dimir Aqueduct
+Waterfront District
+Rakdos Carnarium
+Tramway Station
+Gruul Turf
+Racers' Ring
+Botanical Plaza
+Selesnya Sanctuary
+Orzhov Basilica
+Silverquill Campus
+Izzet Boilerworks
+Prismari Campus
+Golgari Rot Farm
+Witherbloom Campus
+Boros Garrison
+Lorehold Campus
+Quandrix Campus
+Simic Growth Chamber
+Ash Barrens
+Evolving Wilds
+Terramorphic Expanse
+Thriving Bluff
+Thriving Grove
+Thriving Heath
+Thriving Isle
+Thriving Moor
+
+# maybeboard
+
