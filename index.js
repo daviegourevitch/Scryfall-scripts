@@ -3,26 +3,14 @@ import fetch from 'node-fetch';
 
 const WAIT_TIME = 200;
 const DIRECTORY = './Pauper Cube Lists';
-
-// pull the already loaded cards from the json file 'data.json
-const alreadyLoadedCards = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+const VERBOSE = false;
 
 async function main() {
-    console.log('Loading cards...')
-    const CARDS = loadCards(DIRECTORY);
-    console.log(`Loaded ${CARDS.length} cards.`);
-    const results = [];
-    for (const cardName of CARDS) {
-        const loadedCard = alreadyLoadedCard(cardName);
-        if (loadedCard) {
-            // console.log(`Skipping ${cardName} because it has already been loaded.`);
-            results.push(loadedCard);
-        } else {
-            await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
-            const queryResults = await queryCard(cardName);
-            results.push(queryResults);
-        }
-    }
+    console.log('Loading cards to query...')
+    const cardsNames = loadCards(DIRECTORY);
+    console.log(`Loaded ${cardsNames.length} card names.`);
+    const results = await loadAllCards(cardsNames);
+    console.log(`Loaded ${results.length} results.`)
     fs.writeFileSync('./data.json', JSON.stringify(results));
     const cardsBySet = groupCardsBySet(results);
     // write results to a json file in case we want to use it later
@@ -30,8 +18,27 @@ async function main() {
     console.log('Done!');
 }
 
+async function loadAllCards(cardsNames) {
+    const results = [];
+    for (const cardName of cardsNames) {
+        VERBOSE && console.log(`Loading ${cardName}`)
+        const loadedCard = alreadyLoadedCard(cardName);
+        if (loadedCard) {
+            results.push(loadedCard);
+            VERBOSE && console.log(`Already loaded ${cardName}`);
+        } else {
+            await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
+            const queryResults = await queryCard(cardName);
+            results.push(queryResults);
+            VERBOSE && console.log(`Loaded ${cardName}`);
+        }
+    }
+    return results;
+}
+
+const EXISTING_DATA = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 function alreadyLoadedCard(cardName) {
-    for (const result of alreadyLoadedCards) {
+    for (const result of EXISTING_DATA) {
         if (result.data) {
             for (const card of result.data) {
                 if (card.name === cardName) {
@@ -56,6 +63,7 @@ function loadCards(directory) {
     cubeLists.forEach(cubeList => {
         const cubeListContents = fs.readFileSync(`./Pauper Cube Lists/${cubeList}`, 'utf8');
         const cubeListCards = cubeListContents.split('\n');
+        VERBOSE && console.log(`... loading cards from ${cubeList} ...`);
         cubeListCards.forEach(card => {
             card = card.replace('\r', '');
             if (!cards.includes(card) && card[0] !== "#" && !ignore.includes(card) && card !== "") {
@@ -94,10 +102,10 @@ function groupCardsBySet(queryResults) {
                 if (shouldIgnoreCard(card)) {
                     return;
                 }
-                if (cardsBySet[card.set]) {
-                    cardsBySet[card.set].push(card);
+                if (cardsBySet[card.set_name]) {
+                    cardsBySet[card.set_name].push(card);
                 } else {
-                    cardsBySet[card.set] = [card];
+                    cardsBySet[card.set_name] = [card];
                 }
             });
         } catch (e) {
@@ -106,6 +114,25 @@ function groupCardsBySet(queryResults) {
             console.error(e);
         }
     });
+    for (const set of Object.keys(cardsBySet)) {
+        // remove duplicates
+        cardsBySet[set] = cardsBySet[set].filter((card, index, self) => {
+            return self.findIndex(c => c.name === card.name) === index;
+        });
+    }
+    const setsToIgnore = [
+        "Summer Magic / Edgar",
+        "Mystery Booster",
+        "The List",
+        "Limited Edition Alpha",
+        "Limited Edition Beta",
+        "Unlimited Edition",
+    ];
+    for (const set of Object.keys(cardsBySet)) {
+        if (setsToIgnore[set]) {
+            delete cardsBySet[set];
+        }
+    }
     for (const set of Object.keys(cardsBySet)) {
         cardsBySet[set].sort((a, b) => {
             // sort by collector's number
@@ -138,6 +165,7 @@ function writeCSV(cardsBySet) {
         "Set Type",
         "Card Name",
         "Card No.",
+        "Mana Cost",
         "Type",
         "Rarity",
         "Price"
@@ -151,6 +179,7 @@ function writeCSV(cardsBySet) {
                 card.set_type,
                 card.name.replace(",", ".").replace("—", "-"),
                 card.collector_number,
+                card.mana_cost,
                 card.type_line,
                 card.rarity,
                 card.prices.usd,
