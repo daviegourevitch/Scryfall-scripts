@@ -1,0 +1,189 @@
+# mainboard
+Arcbound Javelineer
+Dauntless Bodyguard
+Mother of Runes
+Skymarcher Aspirant
+Thraben Inspector
+Usher of the Fallen
+Adanto Vanguard
+Vizier of Remedies
+Wall of Omens
+Abzan Falconer
+Flickerwisp
+Palace Jailer
+Ephemerate
+Swords to Plowshares
+Portable Hole
+Barbed Spike
+Intangible Virtue
+Banishing Light
+Oblivion Ring
+Touch the Spirit Realm
+Hapless Researcher
+Hedron Crab
+Skyship Plunderer
+Watcher for Tomorrow
+Sicarian Infiltrator
+Murmuring Mystic
+Whirler Rogue
+Consider
+Mental Note
+Thought Scour
+Lose Focus
+Mana Leak
+Miscalculation
+Remand
+Frantic Search
+Thirst for Knowledge
+Fact or Fiction
+Force of Will
+Gush
+Careful Study
+Hard Evidence
+Ponder
+Preordain
+Chart a Course
+Treasure Cruise
+Standstill
+Control Magic
+Carrion Feeder
+Cult Conscript
+Stitcher's Supplier
+Viscera Seer
+Blood Artist
+Heir of Falkenrath
+Kitesail Freebooter
+Mire Triton
+Order of Midnight
+Triarch Praetorian
+Zulaport Cutthroat
+Stinkweed Imp
+Ravenous Chupacabra
+Street Wraith
+Cut Down
+Darkblast
+Go for the Throat
+Heartless Act
+Infernal Grasp
+Dismember
+Bloodchief's Thirst
+Cabal Therapy
+Duress
+Inquisition of Kozilek
+Reanimate
+Demonic Tutor
+Exhume
+Life // Death
+Animate Dead
+Bastion of Remembrance
+Necromancy
+Blazing Rootwalla
+Dragon's Rage Channeler
+Flameblade Adept
+Goldhound
+Insolent Neonate
+Monastery Swiftspear
+Rabbit Battery
+Reinforced Ronin
+Embereth Shieldbreaker
+Goblin Cratermaker
+Young Pyromancer
+Spiteful Prankster
+Fireblast
+Burst Lightning
+Lightning Axe
+Lightning Bolt
+Abrade
+Cathartic Pyre
+Incinerate
+Lightning Strike
+Magma Jet
+Manamorphose
+Thrill of Possibility
+Burning Inquiry
+Chain Lightning
+Faithless Looting
+Firebolt
+Arc Trail
+Cathartic Reunion
+Boots of Speed
+Goblin Bombardment
+Ghirapur Aether Grid
+Arbor Elf
+Basking Rootwalla
+Elvish Mystic
+Experiment One
+Joraga Treespeaker
+Llanowar Elves
+Devoted Druid
+Sakura-Tribe Elder
+Wall of Roots
+Eternal Witness
+Reclamation Sage
+Spike Feeder
+Renata, Called to the Hunt
+Acidic Slime
+Search for Tomorrow
+Bala Ged Recovery
+Cultivate
+Utopia Sprawl
+Wild Growth
+Fertile Ground
+Treetop Village
+Talisman of Progress
+Soulherder
+Mistvault Bridge
+Baleful Strix
+Talisman of Dominance
+Dimir Keyrune
+Drossforge Bridge
+Talisman of Indulgence
+Murderous Redcap
+Talisman of Impulse
+Conclave Mentor
+Talisman of Unity
+Good-Fortune Unicorn
+Kitchen Finks
+Elas il-Kor, Sadistic Pilgrim
+Fleshtaker
+Talisman of Hierarchy
+Lingering Souls
+Silverbluff Bridge
+Sprite Dragon
+Talisman of Creativity
+Saheeli, Sublime Artificer
+Talisman of Resilience
+Reyav, Master Smith
+Talisman of Conviction
+Arcbound Shikari
+Bruenor Battlehammer
+Talisman of Curiosity
+Aether Hub
+Ash Barrens
+Evolving Wilds
+Terramorphic Expanse
+Signal Pest
+Porcelain Legionnaire
+Gitaxian Probe
+Lotus Petal
+Mishra's Bauble
+Bonesplitter
+Flayer Husk
+Cranial Plating
+Everflowing Chalice
+Liquimetal Torque
+Mind Stone
+Grafted Wargear
+Heirloom Blade
+Night Scythe
+Worn Powerstone
+Thran Dynamo
+Darksteel Citadel
+Field of Ruin
+Ghost Quarter
+Glacial Chasm
+Mishra's Factory
+Wasteland
+
+# maybeboard
+

@@ -1,22 +1,21 @@
-AccumulatedKnowledge
+Accumulated Knowledge
 Brainstorm
 Dandân
-DiminishingReturns
+Diminishing Returns
 Foil
-HalimarDepths
-Island
-IzzetBoilerworks
-LonelySandbar
-MagicalHack
-MemoryLapse
-MentalNote
-MindBend
+Halimar Depths
+Izzet Boilerworks
+Lonely Sandbar
+Magical Hack
+Memory Lapse
+Mental Note
+Mind Bend
 Miscalculation
-MysticRetrieval
+Mystic Retrieval
 Portent
-RayofCommand
-RemoteIsle
-SupplantForm
-TellingTime
-TempleofEpiphany
-VisionCharm
+Ray of Command
+Remote Isle
+Supplant Form
+Telling Time
+Temple of Epiphany
+Vision Charm

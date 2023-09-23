@@ -6,12 +6,11 @@ const VERBOSE = false;
 
 async function main() {
     try {
+        const cardNames = fs.readFileSync('./Pauper Cube Lists/ThePauperCube.txt', 'utf8').split('\n').map(line => line.trim().replace("\r", "")).filter(line => line.length > 0 && !line.startsWith('#'));
         const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
-        const cardsBySet = groupCardsBySet(data);
-        // write results to a json file in case we want to use it later
-        writeCardsBySetCSV(cardsBySet, cardNames);
-        const cardsByName = groupCardsByName(data);
-        writeCardsByNameCSV(cardsByName, cardNames);
+        const cardsBySet = groupCardsBySet(cardNames, data);
+        writeCardsBySetCSV(cardsBySet, data);
+        writeCardsByNameCSV(cardNames, data);
         console.log('Done!');
     } catch (e) {
         console.error(e);
@@ -19,24 +18,21 @@ async function main() {
 }
 
 
-function groupCardsBySet(queryResults) {
+function groupCardsBySet(cardNames, queryResults) {
     const cardsBySet = {};
-    queryResults.forEach(result => {
+    cardNames.forEach(cardName => {
         try {
-            result.data?.forEach(card => {
-                if (shouldIgnoreCard(card)) {
-                    return;
-                }
-                if (cardsBySet[card.set_name]) {
-                    cardsBySet[card.set_name].push(card);
+            const card = queryResults[cardName];
+            for (const printing of card.data) {
+                printing.numberOfCubes = card.numberOfCubes;
+                if (cardsBySet[printing.set_name]) {
+                    cardsBySet[printing.set_name].push(printing);
                 } else {
-                    cardsBySet[card.set_name] = [card];
+                    cardsBySet[printing.set_name] = [printing];
                 }
-            });
+            }
         } catch (e) {
-            console.error(`Error processing ${result}`);
-            console.log({result});
-            console.error(e);
+            console.error(`Error processing ${cardName}`);
         }
     });
     for (const set of Object.keys(cardsBySet)) {
@@ -83,7 +79,7 @@ function shouldIgnoreCard(card) {
     return false;
 }
 
-function writeCardsBySetCSV(cardsBySet, cardsByCubes) {
+function writeCardsBySetCSV(cardsBySet) {
     const headers = [
         "Set",
         "Release Date",
@@ -102,7 +98,7 @@ function writeCardsBySetCSV(cardsBySet, cardsByCubes) {
                 card.set_name,
                 card.released_at,
                 card.name.replace(",", ".").replace("—", "-"),
-                cardsByCubes[card.name] || 0,
+                card.numberOfCubes,
                 card.collector_number,
                 card.mana_cost,
                 card.type_line,
@@ -122,33 +118,7 @@ function writeCardsBySetCSV(cardsBySet, cardsByCubes) {
     fs.writeFileSync('./cards-by-set.csv', csv);
 }
 
-function groupCardsByName(queryResults) {
-    const cardsByName = {};
-    queryResults.forEach(result => {
-        try {
-            result.data?.forEach(card => {
-                if (cardsByName[card.name]) {
-                    cardsByName[card.name].push(card);
-                } else {
-                    cardsByName[card.name] = [card];
-                }
-            });
-        } catch (e) {
-            console.error(`Error processing ${result}`);
-            console.log({result});
-            console.error(e);
-        }
-    });
-    for (const name of Object.keys(cardsByName)) {
-        // remove duplicates
-        cardsByName[name] = cardsByName[name].filter((card, index, self) => {
-            return self.findIndex(c => c.set_name === card.set_name) === index;
-        });
-    }
-    return cardsByName;
-}
-
-function writeCardsByNameCSV(cardsByName, cardsByCubes) {
+function writeCardsByNameCSV(cardNames, data) {
     const headers = [
         "Card Name",
         "# Cubes",
@@ -157,13 +127,14 @@ function writeCardsByNameCSV(cardsByName, cardsByCubes) {
         "Type",
     ];
     const rows = [];
-    Object.keys(cardsByName).forEach(name => {
+    cardNames.forEach(cardName => {
+        const printings = data[cardName];
         rows.push([
-            name.replace(",", ".").replace("—", "-"),
-            cardsByCubes[name] || 0,
-            cardsByName[name].map(card => card.set_name).join(" "),
-            cardsByName[name][0].mana_cost,
-            cardsByName[name][0].type_line,
+            cardName.replace(",", ".").replace("—", "-"),
+            printings.numberOfCubes,
+            printings.data.map(printing => printing.set_name).join(" "),
+            printings.data[0].mana_cost,
+            printings.data[0].type_line,
         ]);
     });
     // sort by name

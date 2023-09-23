@@ -2,9 +2,9 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const WAIT_TIME = 100;
+const MAX_CARDS_TO_QUERY = 2000;
 const DIRECTORY = "./Pauper Cube Lists";
 const DATA_FILE = "./data.json";
-const VERBOSE = true;
 
 async function main() {
   console.log("Loading card names...");
@@ -50,6 +50,7 @@ function loadExistingCardData(filename) {
 
 async function loadAllCards(cardNames, existingData) {
   const cardData = {};
+  let limit = MAX_CARDS_TO_QUERY;
   for (const cardName of Object.keys(cardNames)) {
     if (cardName in existingData) {
       cardData[cardName] = existingData[cardName];
@@ -57,26 +58,31 @@ async function loadAllCards(cardNames, existingData) {
       const data = await loadCardData(cardName);
       if (data) {
         cardData[cardName] = data;
+      } else {
+        console.log(`\t\tNo results for ${cardName}`)
+        continue;
       }
+      limit--;
+    }
+    cardData[cardName].numberOfCubes = cardNames[cardName];
+    if (limit <= 0) {
+      break;
     }
     await new Promise((resolve) => setTimeout(resolve, WAIT_TIME));
-    // return cardData; // remove me
   }
   return cardData;
 }
 
 async function loadCardData(cardName) {
-  console.log({cardName})
-  VERBOSE && console.log(`Loading ${cardName}`);
   try {
     const url = `https://api.scryfall.com/cards/search?include_extras=true&q=${cardName}&unique=prints`;
     const response = await fetch(url);
     const json = await response.json();
-    if (json.total_cards === 0) {
-      console.log(`No results for ${cardName}`);
+    json.data = json.data.filter((card) => card.name === cardName || card.name.split(" // ")[0] === cardName);
+    if (json.data.length === 0 || json.total_cards === 0) {
+      console.log(`\t\tNo results for ${cardName}`);
       return null;
     }
-    json.data = json.data.filter((card) => card.name === cardName);
     console.log(`Fetched ${cardName}`);
     return json;
   } catch (e) {
