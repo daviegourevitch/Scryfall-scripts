@@ -6,7 +6,7 @@ const VERBOSE = false;
 
 async function main() {
     try {
-        const cardNames = fs.readFileSync('./Pauper Cube Lists/ThePauperCube.txt', 'utf8').split('\n').map(line => line.trim().replace("\r", "")).filter(line => line.length > 0 && !line.startsWith('#'));
+        const cardNames = fs.readFileSync('./Pauper Cube Lists/BeginnerMicroCubeHistoricMostlyPauper.txt', 'utf8').split('\n').map(line => line.trim().replace("\r", "")).filter(line => line.length > 0 && !line.startsWith('#'));
         const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
         const cardsBySet = groupCardsBySet(cardNames, data);
         writeCardsBySetCSV(cardsBySet, data);
