@@ -1,0 +1,217 @@
+# mainboard
+Alseid of Life's Bounty
+Healer's Hawk
+Swooping Lookout
+Cathar Commando
+Flutterfox
+Seasoned Hallowblade
+Spirited Companion
+Ardenvale Tactician
+Éowyn, Lady of Rohan
+Flickerwisp
+Duelcraft Trainer
+Grey Knight Paragon
+Crystal Dragon
+Ephemerate
+Loran's Escape
+Blessed Alliance
+Moment of Valor
+Crush Contraband
+Against All Odds
+Kor Halberd
+Plate Armor
+Gryff's Boon
+Sentinel's Eyes
+All That Glitters
+Journey to Nowhere
+Seal of Cleansing
+Seal from Existence
+Slither Blade
+Spectral Sailor
+Looter il-Kor
+Ninja of the Deep Hours
+Picklock Prankster
+Acquisition Octopus
+Cloudkin Seer
+Genestealer Locus
+Mulldrifter
+Striped Riverwinder
+Sword Coast Serpent
+Consider
+Hieroglyphic Illumination
+Shore Up
+Thought Scour
+You See a Guard Approach
+Fumble
+Ephara's Dispersal
+Fact or Fiction
+Boon of the Wish-Giver
+Treasure Cruise
+Chart a Course
+Compulsive Research
+Curious Obsession
+Seal of Removal
+Bitter Chill
+Volrath's Curse
+Faerie Dreamthief
+Gurmag Angler
+Unwilling Ingredient
+Knight of Dusk's Shadow
+Reassembling Skeleton
+Triarch Praetorian
+Battlefield Butcher
+Gravelighter
+Vampire Nighthawk
+Ravenous Chupacabra
+Syr Konrad, the Grim
+Hexmark Destroyer
+Archfiend of Sorrows
+Cling to Dust
+Return to Action
+Murder
+Assassin's Ink
+Bloodchief's Thirst
+Unearth
+Feed the Swarm
+Night's Whisper
+Gruesome Realization
+Dross Skullbomb
+Reaper's Talisman
+Bladed Battle-Fan
+Clawing Torment
+Vow of Torment
+Dragon's Rage Channeler
+Goldhound
+Hearth Elemental
+Monastery Swiftspear
+Champion of the Flame
+Embereth Shieldbreaker
+Kiln Fiend
+Thermo-Alchemist
+Bladegraft Aspirant
+Giant Cindermaw
+Guttersnipe
+Frontier Warmonger
+Twinshot Sniper
+Two-Headed Hunter
+Borrowed Hostility
+Burst Lightning
+Raze the Effigy
+Shock
+Fists of Flame
+Fling
+Lightning Strike
+Twinferno
+Faithless Looting
+Firebolt
+Arc Trail
+Mirran Banesplitter
+Bitter Reunion
+Arboreal Grazer
+Llanowar Elves
+Kraul Harpooner
+Noose Constrictor
+Redtooth Vanguard
+Satyr Wayfinder
+Llanowar Visionary
+Nyx Herald
+Thrashing Brontodon
+Burlfist Oak
+Gnarlback Rhino
+Goreclaw, Terror of Qal Sisma
+Sarulf's Packmate
+Keeper of Fables
+Owlbear
+Stormkeld Vanguard
+Warden of the Woods
+Rampaging Brontodon
+Blossoming Defense
+Tail Swipe
+Graceful Takedown
+Rancor
+Wild Growth
+Rune of Might
+Warbriar Blessing
+Cartouche of Strength
+Snake Umbra
+Empyrean Eagle
+Threadbind Clique
+Krydle of Baldur's Gate
+Halo Forager
+Rakdos Headliner
+Sonorous Howlbonder
+Burning-Tree Emissary
+General Marhault Elsdragon
+Qasali Pridemage
+Satyr Enchanter
+Killian, Ink Duelist
+Hero of the Dunes
+Enigma Drake
+Johann, Apprentice Sorcerer
+Urborg Repossession
+Baloth Null
+Akiri, Fearless Voyager
+Bruenor Battlehammer
+River Hoopoe
+Colossal Skyturtle
+Gingerbrute
+Vault Skirge
+Containment Construct
+Porcelain Legionnaire
+Circuit Mender
+Trespassing Souleater
+Snare Thopter
+Bag of Holding
+Barrow-Blade
+Cliffhaven Kitesail
+Colossus Hammer
+Cranial Plating
+Mind Stone
+Thran Power Suit
+Loxodon Warhammer
+Azorius Chancery
+Skybridge Towers
+Dimir Aqueduct
+Waterfront District
+Rakdos Carnarium
+Tramway Station
+Gruul Turf
+Racers' Ring
+Selesnya Sanctuary
+Thornglint Bridge
+Orzhov Basilica
+Scoured Barrens
+Izzet Boilerworks
+Swiftwater Cliffs
+Golgari Rot Farm
+Jungle Hollow
+Boros Garrison
+Rustvale Bridge
+Simic Growth Chamber
+Thornwood Falls
+Black Dragon Gate
+Citadel Gate
+Cliffgate
+Manor Gate
+Sea Gate
+Thriving Bluff
+Thriving Grove
+Thriving Heath
+Thriving Isle
+Thriving Moor
+
+# maybeboard
+Crystal Dragon
+Raffine's Guidance
+Sword Coast Serpent
+Volrath's Curse
+Unwilling Ingredient
+Rogues' Gallery
+Dross Skullbomb
+Vow of Torment
+Goldhound
+Two-Headed Giant
+Sonorous Howlbonder
+Satyr Enchanter
+Colossal Skyturtle
+
