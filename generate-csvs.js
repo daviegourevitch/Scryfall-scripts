@@ -6,7 +6,7 @@ const VERBOSE = false;
 
 async function main() {
     try {
-        const cardNames = fs.readFileSync('./Pauper Cube Lists/TheNoNonsenseTravelCube.txt', 'utf8').split('\n').map(line => line.trim().replace("\r", "")).filter(line => line.length > 0 && !line.startsWith('#'));
+        const cardNames = fs.readFileSync('./Pauper Cube Lists/ThePauperCube.txt', 'utf8').split('\n').map(line => line.trim().replace("\r", "")).filter(line => line.length > 0 && !line.startsWith('#'));
         const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
         const cardsBySet = groupCardsBySet(cardNames, data);
         writeCardsBySetCSV(cardsBySet, data);
@@ -23,6 +23,10 @@ function groupCardsBySet(cardNames, queryResults) {
     cardNames.forEach(cardName => {
         try {
             const card = queryResults[cardName];
+            if (!card) {
+                console.error(`Card not found: ${cardName}`);
+                return;
+            }
             for (const printing of card.data) {
                 printing.numberOfCubes = card.numberOfCubes;
                 if (cardsBySet[printing.set_name]) {
@@ -61,22 +65,6 @@ function groupCardsBySet(cardNames, queryResults) {
         });
     }
     return cardsBySet;
-}
-
-function shouldIgnoreCard(card) {
-    // ignore cards that are not in paper
-    if (card.digital) {
-        return true;
-    }
-    // ignore cards that are not in English
-    if (card.lang !== "en") {
-        return true;
-    }
-    // ignore set types that we don't care about
-    if (["masterpiece", "alchemy", "memorabilia"].includes(card.set_type)) {
-        return true;
-    }
-    return false;
 }
 
 function writeCardsBySetCSV(cardsBySet) {
@@ -129,6 +117,10 @@ function writeCardsByNameCSV(cardNames, data) {
     const rows = [];
     cardNames.forEach(cardName => {
         const printings = data[cardName];
+        if (!printings) {
+            console.error(`Card not found: ${cardName}`);
+            return;
+        }
         rows.push([
             cardName.replace(",", ".").replace("—", "-"),
             printings.numberOfCubes,
